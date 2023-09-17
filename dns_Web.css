@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+.nav {
+    background-color: #E8ECEB;
+    position: block;
+}
+.nav_bar {
+    margin: auto auto;
+}
+.paragraph {
+    font-family: 'IBM Plex Sans', sans-serif;
+    max-width: 1200px;
+    margin: auto auto;
+}
+.range{
+    height: 100%;
+    width: 100%;
+    color: #2D3E4E;
+    text-align: center;
+}
+.TextDeco{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.image{
+    width: 300px;
+    max-height: 250px;
+}
+#title{
+    color: #2D3E4E;
+}
+#foot{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 800;
+    max-width: 1200px;
+    color: #2d3e4e;
+    margin: auto auto;
+    text-align: center;
+    padding-top: 35px;
+}
+table, th, td {
+    max-width: 1500px;
+    text-align: center;
+    border-collapse: collapse;
+}
+th {
+    width: 10%;
+    height: 5vh;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    color: #2D3E4E;
+    background-color: #E8ECEB;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+td {
+    width: 18%;
+    height: 3vh;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+    color: #2D3E4E;
+    background-color: #e8eceb;
+    -webkit-touch-callout: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+h1 {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+td:hover{
+    background-color: #cfd1d1;
+    cursor: pointer;
+}
+h1:hover {
+    cursor: pointer;
+}
+body {
+    margin: 0;
+    background-color: #cdcbd6;
+}
+img{
+    border: 10px solid #596235;
+    border-radius: 10px;
+    background-color: #E8ECEB;
+}
+footer{
+    background-color: #d96846;
+    color: #2d3e4e;
+    width: 100%;
+    height: 100px;
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website for Website</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+            .nav {
+                background-color: #E8ECEB;
+                position: block;
+            }
+            .nav_bar {
+                margin: auto auto;
+            }
+            .range{
+                height: 100%;
+                width: 100%;
+                color: #2D3E4E;
+                text-align: center;
+            }
+            .TextDeco{
+                text-decoration: none;
+            }
+            .paragraph {
+                font-family: 'IBM Plex Sans', sans-serif;
+                max-width: 1200px;
+                margin: auto auto;
+                color: #E8ECEB;
+            }
+            #title{
+                color: #2D3E4E;
+            }
+            #foot{
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-weight: 800;
+                max-width: 1200px;
+                color: #2d3e4e;
+                margin: auto auto;
+                text-align: center;
+                padding-top: 35px;
+            }
+            table, th, td {
+                max-width: 1500px;
+                text-align: center;
+                border-collapse: collapse;
+            }
+            th {
+                width: 10%;
+                height: 5vh;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 20px;
+                color: #2D3E4E;
+                background-color: #E8ECEB;
+                -webkit-touch-callout: none;
+                user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                -webkit-user-select: none;
+            }
+            td {
+                width: 18%;
+                height: 3vh;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 20px;
+                color: #2D3E4E;
+                background-color: #e8eceb;
+                -webkit-touch-callout: none;
+                user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                -webkit-user-select: none;
+            }
+            img{
+                border: 10px solid #E09E50;
+                border-radius: 10px;
+                background-color: #E8ECEB;
+            }
+            h1 {
+                margin-left: 40%;
+                margin-right: 40%;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            td:hover{
+                background-color: #cfd1d1;
+                cursor: pointer;
+            }
+            h1:hover {
+                cursor: pointer;
+            }
+            body {
+                margin: 0;
+                background-color: #2d3e4e;
+            }
+            footer{
+                background-color: #8cbdb9;
+                color: #2d3e4e;
+                width: 100%;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav">
+            <table class="nav_bar">
+                <tr>
+                    <th colspan="5"><h1 ><a href="main_page.html" class="TextDeco" id="title">WEBSITE</a></h1></th>
+                </tr>
+                <tr>
+                    <td><a href="http.html" class="TextDeco"><div class="range">HTTP</div></a></td>
+                    <td><a href="dns.html" class="TextDeco"><div class="range">DNS</div></a></td>
+                    <td><a href="Web_Server.html" class="TextDeco"><div class="range">Web Servers</div></a></td>
+                    <td><a href="request.html" class="TextDeco"><div class="range">HTTP Request/Response</div></a></td>
+                    <td><a href="Browser.html" class="TextDeco"><div class="range">Browser Rendering</div></a></td>
+                </tr>
+            </table>
+        </div>
+        <div class="paragraph">
+            <h2>HTTP</h2>
+            <p class="InContent">
+                Hypertext Transfer Protocol is an Application layer( a way of hiding 
+                specific working data that specifies the shared communication protocols 
+                and interface methods used by hosts in a communication network. ) 
+                protocol for transmitting hypermedia documents, such as HTML, XML.
+            </p>
+            <p class="InContent">
+                Designed for communication between web browsers and web servers.
+                It follows classical client-server model(the way of communication 
+                that we think what device and servers are doing. )
+                It opens a connection to send the request and wait for the request to 
+                come from the server.
+            </p>
+            <p class="InContent">
+                It is a stateless protocol.
+                Server don’t need to storage the data that have requested from the client.
+            </p>
+            <p class="InContent">
+                HTTP requests are how clients (like web browsers) talk to servers on the 
+                internet. Clients send requests with information like what they want and 
+                where to get it. Servers process these requests and send back HTTP responses. 
+                Responses include a status code, headers, and the actual content. This 
+                process is fundamental to how the internet works, allowing users to access 
+                web pages, retrieve data, and interact with online resources.
+            </p>
+            <p class="InContent">
+                Web browsers make websites visible to users by interpreting HTML files, 
+                which consist of HTML elements composed of tags and attributes. These elements 
+                serve as the foundational building blocks of web pages. Some HTML elements for
+                structing contents are Header, Body, and footer tag.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/The_HTML_paragraph_element_HD_Wallpaper.jpg" style="width: 1180px;">
+            <p class="InContent">
+                There are over 50 unique HTTP status codes across five different categories. 
+                And these are three status code that users often see.
+                <ul>
+                    <li>
+                        <strong>404 Not Found:</strong> This could be used for example if you try to access a 
+                        URL that does not exist or if you try to access something from the 
+                        database that does not exist.
+                    </li>
+                    <li>
+                        <strong>401 Unauthorized:</strong> while it uses the word unauthorized 
+                        (which means you don’t have permission) this status code actually means 
+                        you are unauthenticated.
+                    </li>
+                    <li>
+                        <strong>403 Forbidden:</strong> This status informs the client that they 
+                        do not have permission to perform this request. 
+                    </li>
+                </ul>
+            </p>
+            <p class="InContent">
+                When a URL is entered into the browser, the browser sends an HTTP 
+                command to the web server directing it to search and transmit the requested web 
+                page. For example, when I go into <a href="https://www.naver.com" target="_blank" style="color: #8cbdb9;">naver.com</a>, 
+                client requests the information for the webpage to display on their screen and 
+                the server respone to that.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Ajax_request_response.svg" style="width: 1180px;">
+            <p class="InContent">
+                HTTP and HTML uphold principles of responsible and ethical web use:
+                <ol>
+                    <li>
+                        <strong>Accessibility:</strong> HTML ensures websites are inclusive and usable 
+                        by everyone, promoting responsible digital citizenship.
+                    </li>
+                    <li>
+                        <strong>Privacy and Security:</strong> HTTPS safeguards sensitive data, 
+                        fostering ethical online practices and cybersecurity.
+                    </li>
+                    <li>
+                        <strong>Data Privacy:</strong> Adhering to data protection laws when 
+                        handling user information aligns with ethical standards.
+                    </li>
+                    <li>
+                        <strong>Content Creation:</strong> HTML enables structured and accurate content 
+                        creation, reinforcing the importance of credibility and integrity online.
+                    </li>
+                    <li>
+                        <strong>Respect for Copyright:</strong> Users should honor intellectual property 
+                        rights when sharing content online, supporting ethical content practices.
+                    </li>
+                    <li>
+                        <strong>Critical Thinking:</strong> Understanding web structures and HTTP empowers 
+                        users to critically assess online information, an essential skill for digital 
+                        citizenship.
+                    </li>
+                    <li>
+                        <strong>Responsible Sharing:</strong> HTTP facilitates content sharing, emphasizing 
+                        responsible and respectful sharing to combat misinformation and promote positive online 
+                        interactions.
+                    </li>
+                </ol>
+            </p>
+        </div>
+    </body>
+    <footer>
+        <p id="foot">
+            created by Joonseo Kwak, student in Lahore American School
+        </p>
+    </footer>
+</html>
