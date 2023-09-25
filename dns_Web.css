@@ -11,6 +11,7 @@
 }
 .paragraph {
     font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
     max-width: 1200px;
     margin: auto auto;
 }
@@ -43,6 +44,11 @@
     margin: auto auto;
     text-align: center;
     padding-top: 35px;
+}
+#server_{
+    width: 900px;
+    margin: auto auto;
+    display: block;
 }
 table, th, td {
     max-width: 1500px;
