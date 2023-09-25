@@ -33,6 +33,11 @@
     width: 300px;
     max-height: 250px;
 }
+.server_{
+    width: 600px;
+    height: 456px;
+    display: block;
+}
 #title{
     color: #2D3E4E;
 }
@@ -44,11 +49,6 @@
     margin: auto auto;
     text-align: center;
     padding-top: 35px;
-}
-#server_{
-    width: 900px;
-    margin: auto auto;
-    display: block;
 }
 table, th, td {
     max-width: 1500px;
@@ -69,7 +69,7 @@ th {
     -webkit-user-select: none;
 }
 td {
-    width: 20%;
+    width: 250px;
     height: 3vh;
     padding-top: 7px;
     padding-bottom: 7px;

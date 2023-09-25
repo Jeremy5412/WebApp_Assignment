@@ -17,8 +17,8 @@
                     <td><a href="http.html" class="TextDeco"><div class="range">HTTP</div></a></td>
                     <td><a href="dns.html" class="TextDeco"><div class="range">DNS</div></a></td>
                     <td><a href="Web_Server.html" class="TextDeco"><div class="range">Web Servers</div></a></td>
-                    <td><a href="request.html" class="TextDeco"><div class="range">HTTP Request/Response</div></a></td>
-                    <td><a href="Browser.html" class="TextDeco"><div class="range">Browser Rendering</div></a></td>
+                    <td><a href="request.html" class="TextDeco"><div class="range">HTTP</div></a></td>
+                    <td><a href="Browser.html" class="TextDeco"><div class="range">Browser</div></a></td>
                 </tr>
             </table>
         </div>
@@ -32,58 +32,131 @@
         <div class="paragraph">
             <h2>Web Server</h2>
             <p><strong>There are two meaning when it comes to web server</strong></p>
-            <ul>
-                <li>
-                    On the hardware side, a web server is a computer that 
-                    stores web server software and a website's component 
-                    files (for example, HTML documents, images, CSS stylesheets, 
-                    and JavaScript files). A web server connects to the 
-                    Internet and supports physical data interchange with 
-                    other devices connected to the web.
-                </li>
-                <br>
-                <li>
-                    On the software side, a web server includes several 
-                    parts that control how web users access hosted files. 
-                    At a minimum, this is an HTTP server. An HTTP server 
-                    is software that understands URLs (web addresses) and 
-                    HTTP (the protocol your browser uses to view webpages). 
-                    An HTTP server can be accessed through the domain 
-                    names of the websites it stores, and it delivers the 
-                    content of these hosted websites to the end user's device.
-                </li>
-            </ul>
-            <img src="https://www.seobility.net/en/wiki/images/d/d2/HTTP-Header.png" id="server_">
+            <div style="display: flex;">
+                <img src="https://www.seobility.net/en/wiki/images/d/d2/HTTP-Header.png" class="server_">
+                <ul style="float: right; vertical-align: middle; margin: auto;">
+                    <li>
+                        On the hardware side, a web server is a computer that 
+                        stores web server software and a website's component 
+                        files (for example, HTML documents, images, CSS stylesheets, 
+                        and JavaScript files). A web server connects to the 
+                        Internet and supports physical data interchange with 
+                        other devices connected to the web.
+                    </li>
+                    <br>
+                    <li>
+                        On the software side, a web server includes several 
+                        parts that control how web users access hosted files. 
+                        At a minimum, this is an HTTP server. An HTTP server 
+                        is software that understands URLs (web addresses) and 
+                        HTTP (the protocol your browser uses to view webpages). 
+                        An HTTP server can be accessed through the domain 
+                        names of the websites it stores, and it delivers the 
+                        content of these hosted websites to the end user's device.
+                    </li>
+                </ul>
+            </div>
             <p>
                 As the server as a hardware is a computer, then what those the hardware 
                 component do inside the server?
             </p>
+            <div style="display: flex;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXFtIGvlyQaSHw7zMnbbYJPrivT4bCdyqrqA&usqp=CAU" class="server_">
+                <ul style="float: right; vertical-align: middle; margin: auto;">
+                    <li>
+                        <strong>Motherboard</strong>: It connects all parts of a server. A motherboard's 
+                        size dictates the amount of storage and the number of hard drives 
+                        that can connect to a server.
+                    </li>
+                    <br>
+                    <li>
+                        <strong>CPU (Central Processing Unit)</strong>: It interprets and executes instructions, 
+                        processing data and performing tasks like serving web pages, 
+                        running database queries, and executing other program and computing 
+                        commands.
+                    </li>
+                    <br>
+                    <li>
+                        <strong>RAM (Random Access Memory)</strong>: It processes data from the hard 
+                        drive or solid state drive, stores this data and instructions, 
+                        and enables the central processing unit (CPU) to access it. 
+                    </li>
+                    <br>
+                    <li>
+                        <strong>Hard Drive</strong>: It stores both user and software data for a computer. 
+                        It uses a controller card for optimum processing functions. 
+                        A server housing large amounts of data may need multiple hard drives.
+                    </li>
+                </ul>
+            </div>
+            <p>
+                As server need to run, they need softwares. Here are some software that are recommanded by 
+                elegant themes
+            </p>
+            <ol>
+                <li>
+                    <strong>Apatch</strong>: It is the second most popular web server 
+                    software, used by 31.5 percent of all known websites. It’s an 
+                    open-source project that uses HTTP protocol and operates across 
+                    various OSs, including Windows and Linux.
+                    <br>
+                    Apache is highly customizable, thanks to its modular structure, 
+                    making it versatile for various tasks. It support multiple programming 
+                    languages and benefits from an active developer community. 
+                    Its compatibility with PHP also makes it a top choice for 
+                    hosting WordPress websites.
+                </li>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Apache_HTTP_server_logo_%282019-present%29.svg">
+                <br>
+                <li>
+                    <strong>NGINX</strong>: For a top-notch web server, think about using NGINX, 
+                    which has become more popular than Apache, serving over 33 percent of 
+                    known websites. NGINX works well on both Linux and Windows and is famous 
+                    for its high-performance capabilities, perfect for busy website. It handles 
+                    many connection at once, leading to faster load times and less strain on 
+                    your server.
+                </li>
+                <br>
+                <li>
+                    <strong>LiteSpeed</strong>: LiteSpeed is a lightweight and security-focused web 
+                    server known for its excellent performance and scalability without overloading 
+                    your server. It come with built-in protection against DDoS attacks and can manage 
+                    sudden traffic surges effectively. Notably, it serves PHP faster than many other 
+                    servers, making it an excellent choice for high-traffic or resource-intensive 
+                    website.
+                </li>
+            </ol>
+            <p><strong>When we need to check the server's traffic or condition, we use load balancer</strong></p>
+            <p>
+                Load balancing can be done using hardware or software solutions. Hardware load balancers 
+                are physical devices installed on-site, while software load balancers are applications 
+                installed on private servers or delivered as a managed cloud service.
+                <br>
+                Load balancers manage incoming client requests in real-time and direct them to the best-suited backend 
+                servers to prevent overloading. This helps distribute the workload efficiently.
+                When a server is chosen, the load balancer facilitate communication between the client and server 
+                by matching their IP addresses. This allows them to work together until the session ends.
+                In times of high network traffic, load balancers can add more servers to handle the load. 
+                <br>
+                Conversely, during low activity, they can reduce the number of available servers. Load 
+                balancers can also improve performance by routing traffic to cache servers where previous 
+                requests are temporarily stored.
+            </p>
+            <p>These are some of the examples of organization or services that rely on rebust web server infrustructure</p>
             <ul>
-                <li>
-                    <strong>Motherboard</strong>: It connects all parts of a server. A motherboard's 
-                    size dictates the amount of storage and the number of hard drives 
-                    that can connect to a server.
-                </li>
-                <br>
-                <li>
-                    <strong>CPU (Central Processing Unit)</strong>: It interprets and executes instructions, 
-                    processing data and performing tasks like serving web pages, 
-                    running database queries, and executing other program and computing 
-                    commands.
-                </li>
-                <br>
-                <li>
-                    <strong>RAM (Random Access Memory)</strong>: It processes data from the hard 
-                    drive or solid state drive, stores this data and instructions, 
-                    and enables the central processing unit (CPU) to access it. 
-                </li>
-                <br>
-                <li>
-                    <strong>Hard Drive</strong>: It stores both user and software data for a computer. 
-                    It uses a controller card for optimum processing functions. 
-                    A server housing large amounts of data may need multiple hard drives.
-                </li>
+                <li>Youtube</li>
+                <li>Cloudfare</li>
+                <li>Firbase</li>
+                <li>Amazon</li>
+                <li>Xbox live</li>
             </ul>
+            <p>
+                Understanding web server hardware and software align with responsible technology 
+                use by enabling individuals and organizations to create, manage, and maintain 
+                digital services that are efficient, secure, accessible, and respectful of user 
+                privacy and ethical principles. This understanding empower technology users to 
+                make informed decisions that benefit society and the environment.
+            </p>
         </div>
     </body>
     <footer>
